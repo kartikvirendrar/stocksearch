@@ -1,4 +1,10 @@
-# stocksearch
+# Stock Searching Website
+
+## You can contribute for getting "hacktoberfest-accepted" tag by -
+1. Adding any new feature to current website
+2. Designing Figma for website and adding to Figma Folder in format YOUR_NAME.md
+3. Adding Login/Signup Dashboard
+4. Fixing Buggs
 
 ## Description
 A dashboard where you can search for and find out various details about a particular stock, including - 
