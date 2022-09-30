@@ -1,5 +1,11 @@
 	let stocks=[];
     let stockls;
+    let currentYear = new Date().getFullYear();
+
+    //Use this funtion to user year as dynamic
+    window.onload = function(){
+        document.getElementById('copyRightContent').innerHTML+= "Copyright @ " + currentYear + " Stock Search ";
+    };
 
     document.getElementById('searchBar').addEventListener('keyup', (e) => {
         let stock1 = stocks;
@@ -80,3 +86,4 @@
         }).join('');
         document.getElementById('stockList').innerHTML = htmlString;
     }; 
+    
