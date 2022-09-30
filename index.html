@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Stock Search</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel = "icon" href = "https://freepngimg.com/download/stock_market/25758-1-stock-market-hd.png" type = "image/x-icon">
+    <link rel="icon" href="https://freepngimg.com/download/stock_market/25758-1-stock-market-hd.png" type="image/x-icon">
 </head>
+
 <body>
 
-<div class="container">
-    <h1>Stock Search</h1>
-    <input type="text" id="searchBar" placeholder="Search for Stock" name="searchBar"/><br><br><br>
-    <pre id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></pre>
-    <!-- <div id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></div> -->
-    <div id="stockList"><div class="loader"></div></div>
-</div>
+    <div class="container">
+        <header>
+            <!-- Logo/Name -->
+            <div class="logo">
+                <h3>Stock Search</h3>
+            </div>
+            <!-- Navigations  -->
 
-<script src="./fetch.js" ></script>
+            <div class="navigation">
+                <ul id="menuList">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="main">
+            <div class="row1">
+                <h1>Stock Search</h1>
+                <input type="text" id="searchBar" placeholder="Search Stocks" name="searchBar" />
+            </div>
+            <br><br><br>
+
+            <pre id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></pre>
+            <!-- <div id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></div> -->
+            <div id="stockList">
+                <div class="loader"></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./fetch.js"></script>
 
 </body>
+
 </html>
