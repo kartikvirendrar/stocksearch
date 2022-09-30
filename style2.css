@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    /* background-image: url('https://pixelz.cc/wp-content/uploads/2017/12/stock-market-electronic-chart-uhd-4k-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 5rem;
+    /* color: white; */
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.stocks {
+    border-radius: 10px;
+    border: 2px solid black;
+    /* border: 2px solid white; */
+    box-shadow: 4px 8px 14px rgba(152, 193, 255, 0.25);
+    width: 100%;
+    display: grid;
+    /* background-color: white; */
+}
+
+.stocks :hover{
+    transform: scale(1.1);
+}
+
+.box1{
+    grid-column: 1/2;
+    padding-top: 7%;
+}
+
+.box2{
+    grid-column: 2/2;
+}
+
+/* .box2 > h2 {
+    color: white;
+}
+
+.box2 > h3 {
+    color: white;
+} */
+
+.box2 > hr {
+    width: 50%;
+}
+
+#searchBar {
+    width: 85%;
+    height: 32px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    /* border: 2px solid white; */
+    padding: 5px 10px;
+    text-align: center;
+}
