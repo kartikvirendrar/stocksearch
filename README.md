@@ -21,7 +21,7 @@ A dashboard where you can search for and find out various details about a partic
 4. The stock's average change (increase/decrease %)
 
 ## Dashboard Preview
-![image](https://user-images.githubusercontent.com/82697807/193330197-e205d7e2-3b65-4027-a425-122e2d2330ba.png)
+![image](https://user-images.githubusercontent.com/86337946/193396459-04d1768a-7509-4541-b1bf-7d8e58343ffd.png)
 
 ## Dashboard Link
 The live dashboard can be found [here](https://kartikvirendrar.github.io/stocksearch/).
