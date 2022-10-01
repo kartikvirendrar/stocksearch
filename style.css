@@ -1,3 +1,4 @@
+
 /* body {
   font-family: sans-serif;
   background-color: black;
@@ -13,6 +14,7 @@ h1 {
   margin-bottom: 30px;
   font-size: 5rem;
   color: white;
+
 }
 
 .container {
@@ -36,6 +38,7 @@ h1 {
   display: grid;
   /* background-color: white; */
   background-color: rgba(9, 9, 9, 0.466);
+
 
   backdrop-filter: blur(5px);
   padding: 1rem;
