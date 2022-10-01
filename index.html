@@ -8,6 +8,9 @@
 </head>
 
 <body>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+  </head>
+  <body>
     <div class="overlay"></div>
     <div>
         <video src="Assets/video.mp4" muted loop autoplay class="bg--video"></video>
@@ -51,13 +54,20 @@
     </div>
 
     <div class="container">
-        <h1>Stock Search.</h1>
-        <input type="text" id="searchBar" placeholder="Search for Stock" name="searchBar" />
-        <pre id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></pre>
-        <!-- <div id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></div> -->
-        <div id="stockList">
-            <div class="loader"></div>
-        </div>
+      <h1>Stock Search.</h1>
+      <input
+        type="text"
+        id="searchBar"
+        placeholder="&#xF002; Search for Stock"
+        name="searchBar" 
+      />
+      <pre
+        id="details"
+        class="details"
+        onclick="document.getElementById('details').innerHTML = ''"
+      ></pre>
+      <!-- <div id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></div> -->
+      <div id="stockList"><div class="loader"></div></div>
     </div>
 
     <section class="section--footer-1" id="footer">
