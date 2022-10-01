@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 <html>
-
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Stock Search.</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="Assets/logo.png" type="image/x-icon" />
   </head>
   <body>
-    <div class="overlay"></div>
-    <div>
-      <video
-        src="Assets/video.mp4"
-        muted
-        loop
-        autoplay
-        class="bg--video"
-      ></video>
-    </div>
-
     <div>
       <nav class="navbar">
         <div class="logos">
@@ -37,7 +28,8 @@
           <li class="nav-item">
             <!-- <a href="#" class="nav-linkers">About Us</a> -->
             <button class="nav-linkers link--btns" id="about--link">
-              About Us
+                <a href="team.html">About Us</a>
+              
             </button>
           </li>
           <li class="nav-item">
@@ -54,25 +46,78 @@
         </ul>
       </nav>
     </div>
-
-    <div class="container">
-      <h1>Stock Search.</h1>
-      <input
-        type="text"
-        id="searchBar"
-        placeholder="Search for Stock"
-        name="searchBar"
-      />
-      <pre
-        id="details"
-        class="details"
-        onclick="document.getElementById('details').innerHTML = ''"
-      ></pre>
-      <!-- <div id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></div> -->
-      <div id="stockList"><div class="loader"></div></div>
+    <div class="center">
+    <div class="heading">
+        Stock Search
     </div>
+    <div class="search">
+    <input type="text" id="searchBar" placeholder="Search for Stock" name="searchBar"/><br><br><br>
+    </div>
+    </div>
+    <!-- <pre id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></pre> -->
+    <!-- <div id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></div> -->
+    <div id="stockList"><div class="loader"></div></div>
+     <!-- <div class="stock">
+        <div class="main">
+        <div class="name">
+            PT Hanjaya Mandala Sampoerna Tbk
+        </div>
+        <div class="id green">
+            PHJMF
+        </div>
+        </div>
+        <hr id="divs">
+        <div class="details">
+            <div class="detail">
+                Price : <span> &nbsp; USD </span> <span id="price">0.08</span> 
+            </div>
+            <hr id="div">
+            <div class="detail">
+                Range : <span id="range"> 0.05 - 0.08</span> USD
+            </div>
+            <hr id="div">
+            <div class="detail">
+                Regular Market Change : <span id="rmc">0.01 (14.29%) </span>
+            </div>
+            <hr id="div">
+            <div class="detail">
+                Average Change Percentage : <span id="acp">0.21%</span>
+            </div>
+        </div>
+    
+    </div>
+     <div class="stock">
+        <div class="main">
+        <div class="name">
+            PT Hanjaya Mandala Sampoerna Tbk
+        </div>
+        <div class="id red">
+            PHJMF
+        </div>
+        </div>
+        <hr id="divs">
+        <div class="details">
+            <div class="detail">
+                Price : <span> &nbsp; USD </span> <span id="price">0.08</span> 
+            </div>
+            <hr id="div">
+            <div class="detail">
+                Range : <span id="range"> 0.05 - 0.08</span> USD
+            </div>
+            <hr id="div">
+            <div class="detail">
+                Regular Market Change : <span id="rmc">0.01 (14.29%) </span>
+            </div>
+            <hr id="div">
+            <div class="detail">
+                Average Change Percentage : <span id="acp">0.21%</span>
+            </div>
+        </div>
+     -->
 
-    <section class="section--footer-1" id="footer">
+    
+
+    <!-- <section class="section--footer-1" id="footer">
       <div class="footer-div--h1">
         <div class="footer-div">
           <div class="logo-name-div-1">
@@ -114,8 +159,45 @@
         site you agree to the Subscriber Agreement & Terms of Use, Privacy
         Notice, and Cookie Notice.
       </h1>
-    </section>
+    </section> -->
+    
+   <div class="section footer" id="footer">
+        <div class="website">
+            Stock Search
+        </div>
 
+        <div class="for">
+            For Hacktoberfest
+        </div>
+
+        
+
+        <div class="handles-div">
+            <div>
+                <a href="">
+                <img src="../resources/images/github.png" class="handle" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                <img src="../resources/images/gmail 2.png" class="handle" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                <img src="../resources/images/linkedin.png" class="handle" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                <img src="../resources/images/phone-call.png" class="handle" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+                    Copyright © 2022 Stock Search. , Inc. All rights reserved. By using this site you agree to the Subscriber Agreement & Terms of Use, Privacy Notice, and Cookie Notice.
+        </div>
+    </div>
     <script src="./fetch.js"></script>
   </body>
 </html>
