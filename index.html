@@ -1,21 +1,76 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Stock Search</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel = "icon" href = "https://freepngimg.com/download/stock_market/25758-1-stock-market-hd.png" type = "image/x-icon">
-</head>
-<body>
+  <head>
+    <title>Stock Search.</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="Assets/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div>
+      <video
+        src="Assets/video.mp4"
+        muted
+        loop
+        autoplay
+        class="bg--video"
+      ></video>
+    </div>
 
-<div class="container">
-    <h1>Stock Search</h1>
-    <input type="text" id="searchBar" placeholder="Search for Stock" name="searchBar"/><br><br><br>
-    <pre id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></pre>
-    <!-- <div id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></div> -->
-    <div id="stockList"><div class="loader"></div></div>
-</div>
+    <div>
+      <nav class="navbar">
+        <div class="logos">
+          <img class="logo" src="Assets/logo.png" alt="logo" />
+        </div>
+        <ul class="nav-link">
+          <li class="nav-item">
+            <!-- <a href="#" class="nav-linkers">Home</a> -->
+            <button class="nav-linkers link--btns" id="home--link">Home</button>
+          </li>
+          <li class="nav-item">
+            <!-- <a href="#" class="nav-linkers" id="stocks--link">Stocks</a> -->
+            <button class="nav-linkers link--btns" id="stocks--link">
+              Stocks
+            </button>
+          </li>
+          <li class="nav-item">
+            <!-- <a href="#" class="nav-linkers">About Us</a> -->
+            <button class="nav-linkers link--btns" id="about--link">
+              About Us
+            </button>
+          </li>
+          <li class="nav-item">
+            <!-- <a href="#" class="nav-linkers">Contact Us</a> -->
+            <button class="nav-linkers link--btns" id="contact--link">
+              Contact Us
+            </button>
+          </li>
+          <li>
+            <button class="btn--login" data-visible="true">
+              Log in | Sign up
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
-<script src="./fetch.js" ></script>
+    <div class="container">
+      <h1>Stock Search.</h1>
+      <input
+        type="text"
+        id="searchBar"
+        placeholder="Search for Stock"
+        name="searchBar"
+      />
+      <pre
+        id="details"
+        class="details"
+        onclick="document.getElementById('details').innerHTML = ''"
+      ></pre>
+      <!-- <div id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></div> -->
+      <div id="stockList"><div class="loader"></div></div>
+    </div>
 
-</body>
+    <script src="./fetch.js"></script>
+  </body>
 </html>
