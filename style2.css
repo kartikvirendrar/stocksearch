@@ -20,7 +20,7 @@ h1 {
 }
 
 .stocks {
-    border-radius: 10px;
+    border-radius: 8px;
     border: 2px solid black;
     /* border: 2px solid white; */
     box-shadow: 4px 8px 14px rgba(152, 193, 255, 0.25);

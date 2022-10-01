@@ -1,5 +1,8 @@
+
 let stocks = [];
 let stockls;
+
+
 
 document.getElementById("searchBar").addEventListener("keyup", (e) => {
   let stock1 = stocks;
@@ -107,6 +110,7 @@ const displayStocks = (stocks) => {
                   2
                 )}%</h3></div>
             </div><br><br>`;
+
     })
     .join("");
   document.getElementById("stockList").innerHTML = htmlString;
@@ -149,3 +153,4 @@ window.addEventListener("scroll", () => {
 backToTopBtn.addEventListener("click", () =>
   window.scrollTo({ top: 0, behavior: "smooth" })
 );
+
