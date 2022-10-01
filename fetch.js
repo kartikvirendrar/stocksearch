@@ -152,3 +152,41 @@ const displayStocks = (stocks) => {
 // 						2
 // 					)}%</h3></div>
 // </div><br><br></br>
+
+
+const stocksButton = document.querySelector("#stocks--link");
+const stocksSection = document.querySelector("#stockList");
+
+stocksButton.addEventListener("click", function (e) {
+  stocksSection.scrollIntoView({ behavior: "smooth" });
+});
+
+const contactButton = document.querySelector("#contact--link");
+const footerSection = document.querySelector("#footer");
+
+contactButton.addEventListener("click", function (e) {
+  footerSection.scrollIntoView({ behavior: "smooth" });
+});
+
+const aboutButton = document.querySelector("#about--link");
+const aboutSection = document.querySelector("#about");
+
+aboutButton.addEventListener("click", function (e) {
+  aboutSection.scrollIntoView({ behavior: "smooth" });
+});
+
+/////////////////////////////////////////////////////
+
+const backToTopBtn = document.querySelector(".back-to-top--btn");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 400) {
+    backToTopBtn.setAttribute("data-visible", true);
+  } else {
+    backToTopBtn.setAttribute("data-visible", false);
+  }
+});
+
+backToTopBtn.addEventListener("click", () =>
+  window.scrollTo({ top: 0, behavior: "smooth" })
+);
+
