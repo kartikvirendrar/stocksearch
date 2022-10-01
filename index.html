@@ -7,13 +7,76 @@
 </head>
 <body>
 
-<div class="container">
-    <h1>Stock Search</h1>
+    <div class="center">
+    <div class="heading">
+        Stock Search
+    </div>
+    <div class="search">
     <input type="text" id="searchBar" placeholder="Search for Stock" name="searchBar"/><br><br><br>
-    <pre id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></pre>
+    </div>
+    </div>
+    <!-- <pre id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></pre> -->
     <!-- <div id="details" class="details" onclick="document.getElementById('details').innerHTML = ''"></div> -->
+    <div class="items">
     <div id="stockList"><div class="loader"></div></div>
-</div>
+     <div class="stock">
+        <div class="main">
+        <div class="name">
+            PT Hanjaya Mandala Sampoerna Tbk
+        </div>
+        <div class="id green">
+            PHJMF
+        </div>
+        </div>
+        <hr id="divs">
+        <div class="details">
+            <div class="detail">
+                Price : <span> &nbsp; USD </span> <span id="price">0.08</span> 
+            </div>
+            <hr id="div">
+            <div class="detail">
+                Range : <span id="range"> 0.05 - 0.08</span> USD
+            </div>
+            <hr id="div">
+            <div class="detail">
+                Regular Market Change : <span id="rmc">0.01 (14.29%) </span>
+            </div>
+            <hr id="div">
+            <div class="detail">
+                Average Change Percentage : <span id="acp">0.21%</span>
+            </div>
+        </div>
+    
+    </div>
+     <div class="stock">
+        <div class="main">
+        <div class="name">
+            PT Hanjaya Mandala Sampoerna Tbk
+        </div>
+        <div class="id red">
+            PHJMF
+        </div>
+        </div>
+        <hr id="divs">
+        <div class="details">
+            <div class="detail">
+                Price : <span> &nbsp; USD </span> <span id="price">0.08</span> 
+            </div>
+            <hr id="div">
+            <div class="detail">
+                Range : <span id="range"> 0.05 - 0.08</span> USD
+            </div>
+            <hr id="div">
+            <div class="detail">
+                Regular Market Change : <span id="rmc">0.01 (14.29%) </span>
+            </div>
+            <hr id="div">
+            <div class="detail">
+                Average Change Percentage : <span id="acp">0.21%</span>
+            </div>
+        </div>
+    
+    </div>
 
 <script src="./fetch.js" ></script>
 
