@@ -5,7 +5,8 @@
 2. Designing Figma for website and adding to Figma Folder in format YOUR_NAME.md
 3. Adding Login/Signup Dashboard
 4. Fixing Buggs
-5. Add your name to the Contributors.md file using the below convention:
+5. Feel free to create issues
+6. Add your name to the Contributors.md file using the below convention:
 #### Name: [YOUR NAME]
 
 - Place: City, State, Country
