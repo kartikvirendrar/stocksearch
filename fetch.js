@@ -1,8 +1,5 @@
-
 let stocks = [];
 let stockls;
-
-
 
 document.getElementById("searchBar").addEventListener("keyup", (e) => {
   let stock1 = stocks;
@@ -110,7 +107,6 @@ const displayStocks = (stocks) => {
                   2
                 )}%</h3></div>
             </div><br><br>`;
-
     })
     .join("");
   document.getElementById("stockList").innerHTML = htmlString;
@@ -143,7 +139,7 @@ aboutButton.addEventListener("click", function (e) {
 
 const backToTopBtn = document.querySelector(".back-to-top--btn");
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 400) {
+  if (window.scrollY > 200) {
     backToTopBtn.setAttribute("data-visible", true);
   } else {
     backToTopBtn.setAttribute("data-visible", false);
@@ -153,4 +149,3 @@ window.addEventListener("scroll", () => {
 backToTopBtn.addEventListener("click", () =>
   window.scrollTo({ top: 0, behavior: "smooth" })
 );
-
