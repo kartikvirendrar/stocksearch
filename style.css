@@ -98,7 +98,7 @@ h1 {
   border: 2px solid rgba(255, 255, 255, 0.432);
   padding: 5px 10px;
   text-align: center;
-  font-family:Arial, FontAwesome;
+  font-family: Arial, FontAwesome;
   background-color: rgba(9, 9, 9, 0.653);
   backdrop-filter: blur(5px);
   color: rgba(255, 255, 255, 0.847);
@@ -185,6 +185,13 @@ h1 {
 
 .nav-item {
   margin-left: 3rem;
+}
+
+#home--link:hover,
+#stocks--link:hover,
+#about--link:hover,
+#contact--link:hover {
+  cursor: pointer;
 }
 
 .nav-linkers {
