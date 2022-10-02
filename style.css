@@ -711,3 +711,12 @@ a {
   visibility: visible;
   transform: translateY(0rem);
 }
+
+.arrow--gif {
+  width: 90px;
+  opacity: 0.7;
+  mix-blend-mode: color-burn;
+}
+.arrow--gif:hover {
+  opacity: 0.8;
+}
