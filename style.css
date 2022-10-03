@@ -712,3 +712,7 @@ a {
   visibility: visible;
   transform: translateY(0rem);
 }
+
+.nav-linkers:hover {
+  cursor: pointer;
+}
