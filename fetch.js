@@ -18,9 +18,9 @@ document.getElementById("searchBar").addEventListener("keyup", (e) => {
           method: "GET",
           headers: {
             "x-rapidapi-host":
-              "stock-data-yahoo-finance-alternative.p.rapidapi.com",
+              "yh-finance.p.rapidapi.com",
             "x-rapidapi-key":
-              "a5d0d6aeebmshb035568326931a4p160069jsn76fdafc068cd",
+              "50d6bcea9dmsh3ad1a6bab4e4234p178713jsn66a57015e0a7",
           },
         }
       )
@@ -58,8 +58,8 @@ fetch(
   {
     method: "GET",
     headers: {
-      "x-rapidapi-host": "stock-data-yahoo-finance-alternative.p.rapidapi.com",
-      "x-rapidapi-key": "a5d0d6aeebmshb035568326931a4p160069jsn76fdafc068cd",
+      "x-rapidapi-host": "yh-finance.p.rapidapi.com",
+      "x-rapidapi-key": "50d6bcea9dmsh3ad1a6bab4e4234p178713jsn66a57015e0a7",
     },
   }
 )
